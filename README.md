@@ -1,4 +1,4 @@
-# 🤖 Arduino Smart Robot Car Project (EEEE1027/EEEE1031)
+# Arduino Smart Robot Car Project (EEEE1027/EEEE1031)
 
 This repository contains the Arduino code and documentation for the Smart Robot Car project, focusing on fundamental electronic and programming concepts realized using the **Arduino Uno** platform.
 
@@ -9,7 +9,7 @@ This repository contains the Arduino code and documentation for the Smart Robot 
 
 ---
 
-## ⚙️ Core Hardware and Fabrication Highlights
+## Core Hardware and Fabrication Highlights
 
 The robot car is structurally built on an acrylic frame, powered by a 7.4V Li-Po battery. The **Arduino Uno (ATmega328)** serves as the control unit, interfacing with all sensors and motors via an **L298N Motor Driver**.
 
@@ -35,7 +35,7 @@ A key component of this project was the fabrication of a custom infrared sensor 
 
 ---
 
-## 🎯 Project Functionalities (Code Overview)
+## Project Functionalities (Code Overview)
 
 | File Name                             | Functionality Summary     | Implementation Details                                                                                                                 |
 | :------------------------------------ | :------------------------ | :------------------------------------------------------------------------------------------------------------------------------------- |
