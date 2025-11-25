@@ -1,11 +1,11 @@
 #include "CarMovementFunctions.h"
 
-#define enA 85
+#define enA 3 // Corrected pin number
 #define in1 A1
 #define in2 A2
 #define in3 A3
 #define in4 A4
-#define enB 85
+#define enB 11 // Corrected pin number
 
 char command;
 
@@ -14,8 +14,8 @@ int in1 = A1;
 int in2 = A2;
 int in3 = A3;
 int in4 = A4;
-int enA = 3;  // The original code uses analogWrite(enA, 85) but the define is 3
-int enB = 11; // The original code uses analogWrite(enB, 85) but the define is 11
+int enA = 3;
+int enB = 11;
 
 void setup()
 {
@@ -27,7 +27,7 @@ void setup()
     pinMode(in3, OUTPUT);
     pinMode(in4, OUTPUT);
 
-    // Set default speed
+    // Set default speed (85)
     analogWrite(enA, 85); // Send PWM signal to motor A
     analogWrite(enB, 85); // Send PWM signal to motor B
 }
@@ -58,12 +58,9 @@ void loop()
         motorAForward();
         motorBReverse();
         break;
-    case 'I':
+    case 'I': // Forward Right
     case 'T':
-        motorForward();
-        /
-            // Set Motor A Forward, Motor B Reverse (which is turning right)
-            motorAForward();
+        motorAForward();
         motorBReverse();
         break;
     case 'G': // Forward Left (Motor A Reverse, Motor B Forward)
