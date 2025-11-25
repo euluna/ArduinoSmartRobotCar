@@ -20,7 +20,7 @@ A key component of this project was the fabrication of a custom infrared sensor 
 * The sensor was built using discrete components including an **LM358 Dual Op-Amp**, a **Photodiode**, an IR LED, and various resistors.
 * The circuit was transferred from a breadboard to a permanent **stripboard**. This process, which involved soldering, resulted in a compact and durable comparator circuit capable of outputting a digital signal for line detection.
 
-![DIY IR Sensor on stripboard](/imgs/"DIY IR Sensor.png")
+![DIY IR Sensor on stripboard](imgs/DIY%20IR%20Sensor.png)
 
 ### Component Overview
 
