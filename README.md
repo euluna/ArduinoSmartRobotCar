@@ -1,4 +1,4 @@
-# 🤖 Smart Robot Car: Applied Engineering Construction Project (EEEE1027/EEEE1031)
+# Smart Robot Car: Applied Engineering Construction Project (EEEE1027/EEEE1031)
 
 This project documents the development of a versatile Smart Robot Car, focusing on applying foundational electronic and programming concepts to real-world control applications.
 
@@ -9,7 +9,7 @@ This project documents the development of a versatile Smart Robot Car, focusing 
 
 ---
 
-## ⚙️ Core Hardware and Fabrication Highlights
+## Core Hardware and Fabrication Highlights
 
 The robot car is built around the **Arduino Uno** as its control brain, utilizing an **L298N Motor Driver** to manage the power requirements of the two 5V DC gear motors. The entire assembly is mounted on an acrylic frame and powered by a 7.4V Li-Po battery.
 
@@ -30,7 +30,7 @@ A key deliverable of this project was the fabrication of a custom sensor:
 
 ---
 
-## 🎯 Project Functionalities (Code Overview)
+## Project Functionalities (Code Overview)
 
 The project successfully implements multiple control modalities, demonstrating proficiency in sensor integration and non-blocking code execution.
 
